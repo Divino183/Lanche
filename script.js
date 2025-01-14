@@ -142,7 +142,7 @@ function checkCafeOpen() {
     document.getElementById('closedModal').style.display = 'none';
     document.querySelectorAll('button, a, input, select').forEach(el => el.disabled = true);
     displaySabbathVerse();
-  } else if (currentTime < 8 * 60 || currentTime >= 22 * 60) {
+  } else if (currentTime < 8 * 60 || currentTime >= 20 * 60) {
     document.getElementById('closedModal').style.display = 'block';
     document.getElementById('sabbathModal').style.display = 'none';
     document.querySelectorAll('button, a, input, select').forEach(el => el.disabled = true);
